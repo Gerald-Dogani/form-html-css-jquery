@@ -1,0 +1,156 @@
+body {
+    background-attachment: fixed;
+    color: #444444;
+    font: 12px 'Open Sans', Arial, Arimo, Helvetica, sans-serif;
+    margin: 0 auto;
+    position: relative;
+    word-wrap: break-word;
+    word-break: break-word;
+    -webkit-text-size-adjust: 100%;
+    width: auto;
+}
+.thankyouTick {
+    stroke: #81c038;
+    width: 66px !important;
+    height: 66px !important;
+    margin-bottom: 15px !important;
+    margin: 0 auto;
+    display: block;
+}
+
+.thankyouPageWrap .tyTemplateWidth {
+    width: 840px
+}
+
+.thankyouPageWrap .thankyouTick {
+    stroke: #3a3b3e
+}
+
+.thankyouPageWrap .thankyouMsgText {
+    color: #3a3b3e
+}
+
+.formLogo {
+    max-width: 100%;
+}
+
+.thankyouPageWrap .thankyouTick {
+    stroke: #3a3b3e
+}
+
+.thankyouPageWrap .thankyouMsgText {
+    color: #3a3b3e
+}
+
+.infoWrapper {
+    background: #fff;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.infoContainer {
+    padding: 25px 50px;
+}
+
+.alignCenter {
+    text-align: center;
+    display: block;
+}
+
+.infoContainer .infoCont {
+    color: #606060;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.thankYouMsgTxt label {
+    color: #606060;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.thankyouTick .path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+}
+
+.thankyouTick .path.circle {
+    -webkit-animation: dash 0.9s ease-in-out;
+    animation: dash 0.9s ease-in-out;
+}
+
+.thankyouTick .path.check {
+    stroke-dashoffset: -100;
+    -webkit-animation: dash-check 0.9s 0.35s ease-in-out forwards;
+    animation: dash-check 0.9s 0.35s ease-in-out forwards !important;
+}
+
+
+.infoWrapper {
+    background: transparent;
+    position : relative;
+}
+.templateWidth, .tyTemplateWidth {
+    width: 800px;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+.templateWidth, .tyTemplateWidth {
+    margin:0 auto;
+    width:800px;
+    padding:30px;
+}
+.templateWrapper, .tyTemplateWrapper {
+    position: relative;
+}
+
+.templateWrapper .errorMsgWrapper, .tyTemplateWrapper .errorMsgWrapper {
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+
+
+.templateWrapper, .tyTemplateWrapper {
+    background:#fff;
+    border:1px solid #d6d6d6;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -ms-border-radius:2px;
+    -o-border-radius:2px;
+    border-radius:2px;
+    position: relative;
+}
+
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 1000;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@-webkit-keyframes dash-check {
+    0% {
+        stroke-dashoffset: -100;
+    }
+
+    100% {
+        stroke-dashoffset: 900;
+    }
+}
+
+@keyframes dash-check {
+    0% {
+        stroke-dashoffset: -100;
+    }
+
+    100% {
+        stroke-dashoffset: 900;
+    }
+}
